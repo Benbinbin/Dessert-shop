@@ -10,7 +10,6 @@
 使用技能：
 
 * Bootstrap 4
-
 * HTML
 * CSS
 * Scss
