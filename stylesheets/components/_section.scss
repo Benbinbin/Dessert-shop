@@ -1,0 +1,27 @@
+.section {
+    .section-expand-vertical {
+        @include media-breakpoint-up(md) {
+            margin-top: -20px;
+            margin-bottom: -20px;
+        }
+    }
+
+    .section-image {
+        min-height: 250px;
+
+        @include media-breakpoint-up(md) {
+            // margin-left: -30px;
+            margin-right: -40px;
+        }
+
+    }
+
+    .section-text {
+        max-height: 420px;
+        line-height: 2.5;
+        @include media-breakpoint-up(md) {
+            // text vertical layout
+            writing-mode: vertical-rl;
+        }
+    }
+}
