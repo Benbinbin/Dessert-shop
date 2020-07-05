@@ -8679,16 +8679,15 @@ input[type="button"].btn-block {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   font-size: 24px;
   letter-spacing: 10px;
-  text-align: center;
   color: #FFFFFF;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin-top: -48px;
+  margin-left: -12px;
 }
 
 .header .rect-box:hover .rect-over, .header .rect-box:focus .rect-over {

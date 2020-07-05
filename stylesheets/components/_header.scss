@@ -39,16 +39,17 @@
         .rect-text {
             // text vertical layout
             writing-mode: vertical-rl;
+            font-size: 24px;
+            letter-spacing: 10px;
+            color: #FFFFFF;
             // text center layout
             position: absolute;
             z-index: 2;
-            left: 50%;
             top: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 24px;
-            letter-spacing: 10px;
-            text-align: center;
-            color: #FFFFFF;
+            left: 50%;
+            // transform: translate(-50%, -50%);
+            margin-top: -48px;
+            margin-left: -12px
         }
 
         // interactive
