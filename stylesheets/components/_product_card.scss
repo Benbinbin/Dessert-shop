@@ -5,12 +5,19 @@
     .product-image {
         position: relative;
         height: 315px;
+
         .product-tag {
             position: absolute;
             left: 20px;
             top: 0;
             writing-mode: vertical-rl;
             letter-spacing: 5px;
+        }
+
+        .product-like {
+            position: absolute;
+            right: 22px;
+            top: 19px;
         }
     }
 

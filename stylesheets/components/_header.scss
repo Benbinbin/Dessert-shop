@@ -1,9 +1,23 @@
 .header {
     .header-image {
+        position: relative;
         height: 277px;
 
         @include media-breakpoint-up(md) {
             height: 496px;
+        }
+
+        .head-image-content {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 59px;
+
+            @include media-breakpoint-up(md) {
+                width: 89px;
+                top: 40px;
+                right: 40px;
+            }
         }
     }
 
@@ -49,7 +63,7 @@
             left: 50%;
             // transform: translate(-50%, -50%);
             margin-top: -48px;
-            margin-left: -12px
+            margin-left: -24px
         }
 
         // interactive
