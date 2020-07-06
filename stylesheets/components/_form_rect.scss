@@ -1,0 +1,13 @@
+.form-rect {
+    position: relative;
+    padding-left: 60px;
+    height: 56px;
+    background-color: white;
+
+    .form-icon {
+        width: 24px;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+    }
+}
